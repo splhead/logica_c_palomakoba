@@ -34,8 +34,7 @@ void equacao_torricelli(double velocidade_inicial, double aceleracao, double esp
 
 void ajuda()
 {
-  printf("\nPara realizar os calculos\nentre com os valores no padrão SI separados por virgula\nPor exemplo a função v = v0 + at\nonde velocidade inicial v0 = 20m/s\naceleracao a = -2m/s\ntempo t = 8s\nficaria 20,-2,8\nvelocidade inicial,aceleracao e tempo respectivamente\n\nPressione uma teclar para continuar...\nA qualquer momento aperte Control + C para sair.\n\n");
-  getchar();
+  printf("\nPara realizar os calculos\nentre com os valores no padrão SI separados por virgula\nPor exemplo a função v = v0 + at\nonde velocidade inicial v0 = 20m/s\naceleracao a = -2m/s\ntempo t = 8s\nficaria 20,-2,8\nvelocidade inicial,aceleracao e tempo respectivamente\n\nA qualquer momento aperte Control + C para sair.\n\n");
 }
 
 void menu()
@@ -48,7 +47,7 @@ void menu()
     switch (opcao)
     {
     case INICIO:
-      printf("\nO que deseja?\n1 - Função horária da velocidade\n2 - Função horária da posição\n3 - Equação Torricelli\n4 - ajuda\n0 - sair\n");
+      printf("\nO que deseja?\n1 - Função horária da velocidade\n2 - Função horária da posição\n3 - Equação Torricelli\n4 - Ajuda\n0 - Sair\n");
       scanf("%d", &opcao);
       break;
 
